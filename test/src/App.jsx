@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Hallo from './Hallo'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -28,8 +29,8 @@ function App() {
           onClick={() => setCount((count) => count + 2)}
         >
           Count is {count}
-
         </button>
+        <Hallo />
       </section>
 
       <div className="ticks"></div>

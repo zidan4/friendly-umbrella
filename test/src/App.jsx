@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Hallo from './Hallo'
+import { Greet } from './Greet'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           Count is {count}
         </button>
         <Hallo />
+        <Greet />
       </section>
 
       <div className="ticks"></div>
